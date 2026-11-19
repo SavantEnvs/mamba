@@ -1,0 +1,9 @@
+project: savantenvs/mamba
+target: fuzz_prefix_data
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_prefix_data/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_prefix_data
+    libfuzzer: true
+    timeout: 30

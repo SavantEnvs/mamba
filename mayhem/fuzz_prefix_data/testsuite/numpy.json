@@ -1,0 +1,43 @@
+{
+  "build": "py312h1234567_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "numpy-base <0a0"
+  ],
+  "depends": [
+    "libgcc >=13",
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312"
+  ],
+  "fn": "numpy-2.1.0-py312h1234567_0.conda",
+  "license": "BSD-3-Clause",
+  "md5": "0123456789abcdef0123456789abcdef",
+  "name": "numpy",
+  "requested_spec": "numpy",
+  "sha256": "abababababababababababababababababababababababababababababababab",
+  "size": 8000000,
+  "subdir": "linux-64",
+  "timestamp": 1720000000000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/numpy-2.1.0-py312h1234567_0.conda",
+  "version": "2.1.0",
+  "files": [
+    "bin/f2py",
+    "lib/python3.12/site-packages/numpy/__init__.py"
+  ],
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/f2py",
+        "path_type": "hardlink",
+        "sha256": "cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+        "size_in_bytes": 100
+      }
+    ],
+    "paths_version": 1
+  },
+  "link": {
+    "source": "/opt/pkgs/numpy-2.1.0-py312h1234567_0",
+    "type": 1
+  }
+}

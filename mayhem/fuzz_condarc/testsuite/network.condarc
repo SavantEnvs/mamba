@@ -1,0 +1,9 @@
+ssl_verify: false
+proxy_servers:
+  http: http://proxy:3128
+  https: https://proxy:3128
+remote_connect_timeout_secs: 5
+remote_max_retries: 2
+local_repodata_ttl: 1
+use_lockfiles: false
+log_level: error

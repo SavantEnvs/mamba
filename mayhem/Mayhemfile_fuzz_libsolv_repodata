@@ -1,0 +1,11 @@
+project: savantenvs/mamba
+target: fuzz_libsolv_repodata
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_libsolv_repodata/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_libsolv_repodata
+    libfuzzer: true
+    timeout: 30
+    env:
+      MFUZZ_COMPAT_LEVEL: '1'

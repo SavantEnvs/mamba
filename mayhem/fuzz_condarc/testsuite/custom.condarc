@@ -1,0 +1,8 @@
+custom_channels:
+  internal: https://internal.example.com/conda
+custom_multichannels:
+  everything: [conda-forge, internal]
+mirrored_channels:
+  conda-forge: [https://a.example/cf, https://b.example/cf]
+pkgs_dirs: [./pkgs]
+envs_dirs: [./envs]

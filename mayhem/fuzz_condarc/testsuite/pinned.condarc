@@ -1,0 +1,5 @@
+pinned_packages: [python=3.12, 'numpy>=2']
+extract_threads: 1
+always_yes: true
+platform: linux-aarch64
+safety_checks: warn

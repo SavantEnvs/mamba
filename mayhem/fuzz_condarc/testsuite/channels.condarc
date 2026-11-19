@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+channel_priority: strict
+channel_alias: https://my.mirror/conda
+show_banner: false

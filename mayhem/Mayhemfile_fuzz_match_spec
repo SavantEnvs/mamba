@@ -1,0 +1,9 @@
+project: savantenvs/mamba
+target: fuzz_match_spec
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_match_spec/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_match_spec
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,9 @@
+project: savantenvs/mamba
+target: fuzz_conda_url
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_conda_url/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_conda_url
+    libfuzzer: true
+    timeout: 30
